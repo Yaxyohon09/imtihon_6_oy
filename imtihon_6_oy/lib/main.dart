@@ -462,8 +462,8 @@ class _Sahifa1State extends State<Sahifa1> {
                   context: context,
                   builder: (BuildContext context) => AlertDialog(
                     content: Container(
-                      height: 400,
-                      width: 400,
+                      height: 350,
+                      width: 380,
                       child: Column(
                         children: [
                           Center(
@@ -550,7 +550,7 @@ class _Sahifa1State extends State<Sahifa1> {
                       children: [
                         Text(
                           "${data[index]['Date']}",
-                        ),
+                         ),
                       ],
                     ),
                     Row(
